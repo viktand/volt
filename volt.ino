@@ -7,9 +7,6 @@ void setup() {
   pinMode(A6, INPUT);
 
   Serial.begin(57600);
-
-  fastioWrite(D6, LOW);
-  fastioWrite(D8, HIGH);
 }
 
 void loop() {
