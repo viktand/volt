@@ -1,7 +1,6 @@
 #include "lgtx8p.h"
 
 void setup() {
-  //set D13 to output
   fastioMode(D6, OUTPUT); // red
   fastioMode(D8, OUTPUT); // green
   analogReadResolution(12);
